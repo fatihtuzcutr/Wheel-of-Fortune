@@ -47,8 +47,8 @@ Projeyi yerel ortamınızda çalıştırmak için:
 
 ### 1. Projeyi İndirin
 ```bash
-https://github.com/fatihtuzcutr/Wheel-of-Fortune.git
-cd carkifelek
+git clone https://github.com/fatihtuzcutr/Wheel-of-Fortune.git
+cd Wheel-of-Fortune
 ```
 
 ### 2. Bağımlılıkları Yükleyin
