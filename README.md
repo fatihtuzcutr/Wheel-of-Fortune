@@ -47,7 +47,7 @@ Projeyi yerel ortamınızda çalıştırmak için:
 
 ### 1. Projeyi İndirin
 ```bash
-[git clone https://github.com/KULLANICI_ADINIZ/carkifelek.git](https://github.com/fatihtuzcutr/-ark-felek-Bilgi-Yar-mas-.git)
+(https://github.com/fatihtuzcutr/-ark-felek-Bilgi-Yar-mas-.git)](https://github.com/fatihtuzcutr/Wheel-of-Fortune.git)
 cd carkifelek
 ```
 
