@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Çarkıfelek</title>
+<link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<div id="sahne" class="port">
+  <div id="ust">
+    <div id="turYazi" style="visibility: hidden;">Tur 1 / 3</div>
+    <div id="rekorYazi" style="visibility: hidden;">Rekor: <b>0</b></div>
+    <button class="kucukDug" id="bYardim">Nasıl Oynanır</button>
+    <button class="kucukDug" id="bSes" title="Ses">🔊</button>
+  </div>
+  <div id="tahta"><div class="k yok"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k yok"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k yok"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k bos"></div><div class="k yok"></div></div>
+  <div id="kat"><span>KATEGORİ</span></div>
+  <div id="carkKutu"><canvas id="cark" width="600" height="600"></canvas></div>
+  <div id="oyuncular"><div class="oy o0"><div class="ad"><span>SEN</span></div><div class="tp">0</div><div class="kasa">Kasa: 0</div></div><div class="oy o1"><div class="ad"><span>RAKİP</span></div><div class="tp">0</div><div class="kasa">Kasa: 0</div></div></div>
+  <div id="mesaj"><div style="width:100%"></div></div>
+  <div id="dugmeler"><button class="dug turuncu" data-id="cevir" disabled="">ÇEVİR</button><button class="dug mor" data-id="sesli" disabled="">SESLİ AL (200)</button><button class="dug yesil" data-id="tahmin" disabled="">TAHMİN ET</button></div>
+  <div id="klavye"><div class="sira"><button class="tus sl" data-h="A" disabled="">A</button><button class="tus" data-h="B" disabled="">B</button><button class="tus" data-h="C" disabled="">C</button><button class="tus" data-h="Ç" disabled="">Ç</button><button class="tus" data-h="D" disabled="">D</button><button class="tus sl" data-h="E" disabled="">E</button><button class="tus" data-h="F" disabled="">F</button><button class="tus" data-h="G" disabled="">G</button><button class="tus" data-h="Ğ" disabled="">Ğ</button><button class="tus" data-h="H" disabled="">H</button></div><div class="sira"><button class="tus sl" data-h="I" disabled="">I</button><button class="tus sl" data-h="İ" disabled="">İ</button><button class="tus" data-h="J" disabled="">J</button><button class="tus" data-h="K" disabled="">K</button><button class="tus" data-h="L" disabled="">L</button><button class="tus" data-h="M" disabled="">M</button><button class="tus" data-h="N" disabled="">N</button><button class="tus sl" data-h="O" disabled="">O</button><button class="tus sl" data-h="Ö" disabled="">Ö</button><button class="tus" data-h="P" disabled="">P</button></div><div class="sira"><button class="tus" data-h="R" disabled="">R</button><button class="tus" data-h="S" disabled="">S</button><button class="tus" data-h="Ş" disabled="">Ş</button><button class="tus" data-h="T" disabled="">T</button><button class="tus sl" data-h="U" disabled="">U</button><button class="tus sl" data-h="Ü" disabled="">Ü</button><button class="tus" data-h="V" disabled="">V</button><button class="tus" data-h="Y" disabled="">Y</button><button class="tus" data-h="Z" disabled="">Z</button></div></div>
+  <div id="katman" class="acik"><div class="kart"><div class="logoKutular"><span style="animation-delay:0s">Ç</span><span style="animation-delay:0.12s">A</span><span style="animation-delay:0.24s">R</span><span style="animation-delay:0.36s">K</span><span style="animation-delay:0.48s">I</span><span style="animation-delay:0.6s">F</span><span style="animation-delay:0.72s">E</span><span style="animation-delay:0.84s">L</span><span style="animation-delay:0.96s">E</span><span style="animation-delay:1.08s">K</span></div>
+    <div class="secenek" id="zSec"><button data-z="kolay" class="">Kolay</button><button data-z="normal" class="sec">Normal</button><button data-z="zor" class="">Zor</button></div>
+    <div><button class="dug turuncu oynaDug" data-id="basla">OYNA</button></div></div></div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
